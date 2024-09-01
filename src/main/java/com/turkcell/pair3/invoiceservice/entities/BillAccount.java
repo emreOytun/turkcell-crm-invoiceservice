@@ -1,8 +1,8 @@
 package com.turkcell.pair3.invoiceservice.entities;
 
 import com.turkcell.pair3.core.entities.BaseEntity;
-import com.turkcell.pair3.invoiceservice.enums.EnumAccountType;
 import com.turkcell.pair3.core.enums.EnumState;
+import com.turkcell.pair3.invoiceservice.enums.EnumAccountType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
