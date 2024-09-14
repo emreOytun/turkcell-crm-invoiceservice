@@ -4,6 +4,10 @@ import com.turkcell.pair3.invoiceservice.entities.BillAccount;
 import com.turkcell.pair3.invoiceservice.entities.BillAddress;
 
 public class BillAddressFactory {
+    private BillAddressFactory() {
+
+    }
+
     public static BillAddress create(Integer addressId, BillAccount billAccount) {
         BillAddress billAddress = new BillAddress();
         billAddress.setAddressId(addressId);

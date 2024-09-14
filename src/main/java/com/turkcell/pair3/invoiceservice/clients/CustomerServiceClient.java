@@ -10,11 +10,6 @@ public interface CustomerServiceClient {
 
     @GetMapping("/api/customers/getInfo")
     String testClient();
-
-    //@GetMapping("/api/customers/{customerId}")
-    //IndividualCustomerAddResponse getIndividualCustomer(@PathVariable("customerId") Long customerId);
-
-
 }
 
 

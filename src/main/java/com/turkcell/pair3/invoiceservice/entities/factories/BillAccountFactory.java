@@ -3,6 +3,10 @@ package com.turkcell.pair3.invoiceservice.entities.factories;
 import com.turkcell.pair3.invoiceservice.entities.BillAccount;
 
 public class BillAccountFactory {
+    private BillAccountFactory() {
+
+    }
+
     public static BillAccount create(Integer customerId, String accountName) {
         BillAccount billAccount = new BillAccount();
         billAccount.setCustomerId(customerId);
